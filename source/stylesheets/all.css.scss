@@ -120,6 +120,7 @@ a:not(.carousel-control):not(.btn-primary){
   color: $primary-teal;
   &:hover{
     color: $light-teal;
+    text-decoration: none;
   }
 }
 
@@ -188,6 +189,14 @@ Header
   }
   .row{
     margin: auto 0;
+  }
+  .social-links{
+    margin-top: 100px;
+    a {
+      opacity: 0.75;
+      font-size: 30px;
+      margin: 0 17px;
+    }
   }
 }
 
